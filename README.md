@@ -28,11 +28,11 @@ This repository contains code used for HROM construction.
 > * **merge_cutup_clustering.py**
 >   Combines subcontig-level clustering results back into the original contig-level clustering for CONCOCT
 > * **5.MetaWRAP.sh**
->   Initiates MetaWRAP bin refinement pipeline  
+>   Run MetaWRAP bin refinement pipeline  
 > * **define_quality.py**
 >   Summarize genome quality report of MetaWRAP
 > * **6.GUNC.sh**
->   Initiates GUNC chimerism detection pipeline 
+>   Run GUNC chimerism detection pipeline 
 > * **GTDB-tk2_classify.sh** 
 >   Classify genomes with GTDB-Tk2 
 > * **barrnap_tRNAscan-SE.sh** 
@@ -51,7 +51,57 @@ This repository contains code used for HROM construction.
 ### 4.Dereplication
 > * **NUCMER.sh**
 >   Initiates nucmer for pairwise coverage & ANI calculation
-> 
+> * **cal_nucmer.py**
+>   Calculates pairwise alignment coverage & ANI from nucmer output 
+> * **dRep-MASH.sh** 
+>   Initiates MASH clustering using dRep compare module
+> * **hierarchical_clustering.R* 
+>   Species-level hierarchical clustering using alignment coverage & ANI
+> * **summarize_cluster.py**
+>   summarize species-level clustering and set representative genome 
+
+### 5.Protein_catalogue
+> * **Prokka.sh**
+>   Initiates Prokka for Protein sequence estimation
+> * **MMseqs2-linclust.sh** 
+>   Clustering all HROM proteins at a specified percentage identity using MMseqs2 
+> * **eggNOG-mapper.sh**
+>   Funtional annotation of protein catalog using eggNOG mapper
+
+### 6.FunctionalAnnotation
+> * **Anvio-kofam-metabolism.sh**
+>   Anvi'o pipeline to estimate metabolism module completeness
+> * **Anvi-metabolic-independence.py**
+>   Estimate metabolic independence score from metabolism module completeness result from Anvi'o 
+> * **33_Module.list** 
+>   List of predefined 33 metabolism module for estimation of metabolic independence score
+> * **DefenseFinder.sh** 
+>   Run DefenseFinder for viral defense system estimation
+> * **MacSyFinder.sh**
+>   Run MacSyFinder for Type IV pilus system gene annotation 
+> * **Panaroo.sh**
+>   Run Panaroo for species-level pangenome construction 
+> * **QIIME2-UMAP.sh**
+>   UMAP ordination of Patescibacteria genomes based on Jaccard distance derived from protein presence/absence profiles
+> * **RGI.sh**
+>   Run RGI for Antibiotic resistance gene annotation
+> * **Sporulation-tblastn.sh** 
+>   Run tblastn to 65 marker genes related to Sporulation score 
+> * **Sporulation-summarize.py** 
+>   Summarize sporulation gene hits from tblastn result 
+> * **gutSMASH.sh**
+>   Run gutSMASH for metabolic gene cluster annotation
+> * **pyrodigal.sh** 
+>   Run pyrodigal for small peptide estimation 
+> * **filter-pyrodigal.py** 
+>   Retain small peptides that fall within the specified length threshold
+> * **hmmAntiFam.sh**
+>   Run hmmsearch using Antifam profiles on small peptides to remove spurious proteins 
+> * **summarize-Antifam.py**
+>   Summarize Antifam result for subsequent removal
+> * **Macrel.sh** 
+>   Run Macrel for AMP estimation from non-spurious small peptides
+
 
 
 > * **NUCMER.sh**
