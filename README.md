@@ -102,10 +102,30 @@ This repository contains code used for HROM construction.
 > * **Macrel.sh** 
 >   Run Macrel for AMP estimation from non-spurious small peptides
 
+### 7.Marker_database
+> * **summarize-Clustering-MMseqs2.py**
+>   Summarize clustering of genes using MMseqs2 linclust
+> * **apply-filter-Clustering-MMseqs2.py**
+>   Apply initial filter on markers based on coreness & uniqness
+> * **generate_150nt_from_genes.py**
+>   Generate short reads from filtered marker genes 
+> * **align-fragment.sh** 
+>   Align fragemented short reads of marker genes to genomes using Bowtie2 
+> * **summarise-coreness-from-aln.py**
+>   Summarize Bowtie2 result and estimate corness
 
 
-> * **NUCMER.sh**
->   설명 
-> * **코드**
->   설명 
+### 8.Benchmark
+> * **CAMI.sh**
+>   Run CAMISIM for simulation dataset generation
+> * **PROFILING.sh**
+>   Run Kraken2 and Bracken with the Representative and Concatenated databases, and MetaPhlAn4 with the HROM-marker database on simulation dataset
+> * **bray_curtis_and_F1_True.py**
+>   Estimate Bray-curtis similarity, Precision, Recall, F1-score from simulation dataset 
+> * **bracken_result.sh**
+>   Summarize bracken profiling result for genome size normalization
+> * **normalize-genomesize.py** 
+>   Genome size normalization of profiling result from Kraken2 & Bracken 
+> * **summarize-mph4.py**
+>   Summarize MetaPhlAn4 & HROM marker gene profiling result for evaluation
 
