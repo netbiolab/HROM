@@ -10,8 +10,6 @@ function createDirectory(){
 	fi
 }
 
-# summarize-mph4.py 
-
 cat ${1} | while IFS=$'\t' read comp sets sample 
 	do 
 	output_dir=$( echo -e "2_output/${comp}/${sets}/${sample}")
