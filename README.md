@@ -16,7 +16,46 @@ This repository contains code used for HROM construction.
 > * **change-contig-name-megahit.py**
 >   Changes contig header of MEGAHIT for downstream analysis
 
-### 2.assembly
+### 3.Binning
+> * **1.Contig_align.sh**
+>   Builds an index and aligns the reads to assembled contigs
+> * **2.metaBAT2.sh**
+>   Initiates metaBAT2 binning pipeline
+> * **3.MaxBin2.sh**
+>   Initiates MaxBin2 binning pipeline
+> * **4.CONCOCT.sh**
+>   Initiates CONCOCT binning pipeline 
+> * **merge_cutup_clustering.py**
+>   Combines subcontig-level clustering results back into the original contig-level clustering for CONCOCT
+> * **5.MetaWRAP.sh**
+>   Initiates MetaWRAP bin refinement pipeline  
+> * **define_quality.py**
+>   Summarize genome quality report of MetaWRAP
+> * **6.GUNC.sh**
+>   Initiates GUNC chimerism detection pipeline 
+> * **GTDB-tk2_classify.sh** 
+>   Classify genomes with GTDB-Tk2 
+> * **barrnap_tRNAscan-SE.sh** 
+>   Initiates barrnap and tRNAscan-SE2
+> * **checkM-CPR.sh**
+>   Genome quality estimation for Patescibacteria
+> * **checkM-taxonomy_wf.sh** 
+>   Genome quality estimation using checkM and universal bacterial marker gene set
+> * **summarize_checkm-result.py**
+>   Summarize checkM Result
+> * **summarize-barrnap.py**
+>   Summarize barrnap Result
+> * **summarize-tRNAscan.py**
+>   Summarize tRNAscan Result
+
+### 4.Dereplication
+> * **NUCMER.sh**
+>   Initiates nucmer for pairwise coverage & ANI calculation
+> 
 
 
+> * **NUCMER.sh**
+>   설명 
+> * **코드**
+>   설명 
 
