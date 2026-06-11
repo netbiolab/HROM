@@ -9,3 +9,9 @@ HROM_Conspecific-genomes-metadata.tsv
 
 ### Zenodo DOI
 https://zenodo.org/records/20404365
+
+## 16s rRNA sequence of HROM 
+- 16s rRNA sequence from HROM and GTDB with identical species annotation
+
+### Zenodo DOI
+https://zenodo.org/records/20404590
