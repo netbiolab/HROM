@@ -31,5 +31,12 @@ https://zenodo.org/records/20404537
 - To reconstruct the dataset, you need to concatenate all 3 files.
 
 ### Zenodo DOI 
+https://zenodo.org/records/20407960
+https://zenodo.org/records/20407964
+https://zenodo.org/records/20407968
+
+## HROM Protein catalog
+
+
 
  
