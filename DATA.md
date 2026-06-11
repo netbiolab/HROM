@@ -41,7 +41,11 @@ https://zenodo.org/records/20407968
 ### Zenodo DOI 
 https://zenodo.org/records/20462187 
 
-## 
+## HROM Species Pangenome
+- NC/HQ species pangenomes from HROM
+
+### Zenodo DOI 
+https://zenodo.org/records/20611518
 
 
  
