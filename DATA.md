@@ -36,7 +36,12 @@ https://zenodo.org/records/20407964
 https://zenodo.org/records/20407968
 
 ## HROM Protein catalog
+- HROM Protein catalog (HROP) and annotation of HROM Proteins using eggnog-mapper & DeepGOPlus
 
+### Zenodo DOI 
+https://zenodo.org/records/20462187 
+
+## 
 
 
  
