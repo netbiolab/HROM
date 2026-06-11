@@ -22,3 +22,14 @@ https://zenodo.org/records/20404590
 ### Zenodo DOI 
 https://zenodo.org/records/20404724
 
+## HROM Kraken2 concatenated database 
+### Zenodo DOI 
+https://zenodo.org/records/20404537 
+
+## HROM non-redundant genomes 
+- Collection of 145,149 non-redundant genomes of HROM.
+- To reconstruct the dataset, you need to concatenate all 3 files.
+
+### Zenodo DOI 
+
+ 
