@@ -15,3 +15,10 @@ https://zenodo.org/records/20404365
 
 ### Zenodo DOI
 https://zenodo.org/records/20404590
+
+## HROM Marker database 
+- species-specific marker database of HROM compatible to MetaPhlAn4
+
+### Zenodo DOI 
+https://zenodo.org/records/20404724
+
