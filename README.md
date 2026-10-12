@@ -129,3 +129,12 @@ This repository contains code used for HROM construction.
 > * **summarize-mph4.py**
 >   Summarize MetaPhlAn4 & HROM marker gene profiling result for evaluation
 
+
+## LICENSE
+
+This project is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en).
+
+[![CC BY 4.0][cc-by-shield]][cc-by]
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
